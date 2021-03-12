@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box; 
+    max-width:100%; 
+    /* border: 1px solid red; */
+  }
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#FFFAFA;
+}
+h1, h2, h5, h5{
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h5{
+    font-size:2.5rem;
+}
+h5{
+    font-size:2rem;
+}
+section{
+    padding: 4%;
+}
+a {
+    text-decoration: none;
+}
+
+/********************** */
+/*END General Styles*/
+/********************** */
+
+section.headersizer {
+    margin: 0 4%;
+    padding: 0 4%;
+    background-color: lightgray;
+}
+.myheader h1 {
+    /* background-color: gray; */
+    text-align: left;
+}
+
+.myheader nav a {
+    /* background-color: gray; */
+    padding: 0 5% 0 0;
+}
+
+.top {
+    /* border: 1px solid black; */
+    padding: 0 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topimg, .toptxt {
+
+    text-align: left;
+    width: 100%;
+}
+.toptxt {
+    padding: 4%;
+    text-align: left;
+}
+.toptxt h2 {
+    text-align: left;
+}
+.gallery {
+    /* margin: 4%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gitem {
+    width: 22%;
+}
+div.peek h5 {
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0; */
+}
+
+.myfoot {
+    padding: 0;
+    margin: 0 4%;
+    background-color: lightgray;
+    text-align: center;
+}
+div.footlinks a {
+    padding: 0 5%;
+}
+/* .myfoot h5 {
+    text-align: left;
+} */
